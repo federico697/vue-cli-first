@@ -1,16 +1,19 @@
 <template>
   <div id="app">
     <AppTitle/>
+    <NewComponent/>
   </div>
 </template>
 
 <script>
 import AppTitle from './components/AppTitle.vue';
+import NewComponent from './components/NewComponent.vue';
 
 export default {
   name: 'App',
   components: {
-    AppTitle
+    AppTitle,
+    NewComponent
   }
 }
 </script>
