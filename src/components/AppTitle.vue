@@ -1,5 +1,6 @@
 <template>
     <div>
+        <img src="../assets/logo.png" alt="">
         <h1>La mia prima app con Vue CLI!</h1>
     </div>
 </template>
